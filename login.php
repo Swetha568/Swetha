@@ -1,9 +1,9 @@
 <?php
 // Establish a connection to the database (replace with your database details)
 $servername = "localhost";
-$username = "google";
-$password = "php_google";
-$dbname = "data_google";
+$username = "Mysql_username";
+$password = "mysql_user_pass";
+$dbname = "database_name";
 // $dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
